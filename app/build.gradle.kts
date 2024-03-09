@@ -57,11 +57,13 @@ dependencies {
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.bundles.compose)
 
+    implementation(libs.androidx.navigation)
+
     implementation(libs.kotlinx.serialization.json)
 
     implementation(libs.retrofit)
     implementation(libs.retrofit.converter.kotlinxSerialization)
-    
+
     testImplementation(libs.junit)
     androidTestImplementation(platform(libs.androidx.compose.bom))
     androidTestImplementation(libs.bundles.instrumentation)
